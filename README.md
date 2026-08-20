@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Virelis - Creative Frontend Developer Assignment
+Virelis is a premium biotechnology landing page created as part of the Creative Frontend Developer interview assignment.
+The idea was to create a website that feels like a real biotechnology company rather than a typical portfolio or template, with a strong focus on visual design, motion, interaction, and responsive frontend development.
+
+## Live Website
+https://virelis-livid.vercel.app/
+
+## Tech Stack
+- Next.js
+- React
+- TypeScript
+- CSS
+- GSAP
+
+## Features
+- Responsive biotechnology landing page
+- Animated biological particle visualization
+- Scroll-based animations and section reveals
+- Animated biological wave visual
+- Interactive navigation and CTA elements
+- Research and technology cards
+- Impact statistics with custom icons
+- Final CTA with animated particle field
+- Smooth scrolling and micro-interactions
+- Responsive layouts for desktop, tablet, and mobile
+
+## Design Approach
+I wanted the design to feel modern, scientific and premium without making it look overly technical.
+The visual language is built around dark and warm off-white surfaces, muted green accents, large editorial typography, generous spacing, and subtle borders.
+The page is divided into six sections:
+1. Precision Biology
+2. Innovation
+3. Research & Technology
+4. Capabilities
+5. Impact
+6. Contact
+Each section has its own visual treatment while keeping the same typography, spacing, and color system throughout the page. This helps the experience feel like one cohesive website rather than a collection of separate sections.
+
+## Animation Approach
+Motion is used to support the content and give the website a sense of life without making it distracting.
+GSAP is used for scroll-triggered reveals, transitions, particle movement, and subtle visual effects.
+The biological particle field and wave visual are built as interactive elements rather than static images, allowing them to move naturally as the user explores the page.
+The animations are intentionally kept lightweight so the page remains smooth while still feeling dynamic.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js 18+
+- npm
 
+### Installation
+Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+git clone https://github.com/aashishverma112/virelis.git
